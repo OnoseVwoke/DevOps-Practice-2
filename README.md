@@ -2,72 +2,115 @@ Git is a distributed version control system (DVCS) used by developers and DevOps
 It was created by Linus Torvalds in 2005.
 Simple Definition
 Think of Git as a time machine for your code.
+
 It helps you:
+
 • Save versions of your project
+
 • See what changed
+
 • Go back to older versions if something breaks
+
 • Work with other developers without overwriting each other’s work
+
 ￼
 What Git Is Used For
 1. Tracking Changes
 Git records every change made to files in a project.
 Example:
+
 • You edit index.html
+
 • Git can show:
+
 • what changed
+
 • who changed it
+
 • when it changed
+
 ￼
 2. Backup & Recovery
 If your code breaks, Git allows you to restore a previous working version.
 ￼
 3. Team Collaboration
 Multiple developers can work on the same project at the same time using:
+
 • branches
+
 • merging
+
 • pull requests
+
 Platforms like:
+
 • GitHub
+
 • GitLab
+
 • Bitbucket
+
 use Git to host repositories online.
 ￼
 Important Git Terms
+
 Term
+
 Meaning
+
 Repository (Repo)
 A project folder tracked by Git
 Commit
+
 A saved snapshot of your project
 Branch
+
 A separate workspace for changes
 Merge
+
 Combining changes together
 Clone
+
 Copying a repo from the internet
 Push
+
 Uploading code to GitHub
 Pull
+
 Downloading latest changes
 Copy table
+
 ￼
 Basic Git Workflow
+
 Step 1 — Create a project
 Bash
+
 Copy
 ￼
+
 mkdir myproject
+
 cd myproject
+
 Step 2 — Initialize Git
+
 Bash
+
 Copy
+
 ￼
 git init
+
 This creates a hidden .git folder that Git uses to track everything.
+
 ￼
 Step 3 — Add files
+
 Bash
+
 Copy
+
 ￼
 git add .
 ￼
